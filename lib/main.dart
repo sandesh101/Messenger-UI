@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:cupertino_icons/cupertino_icons.dart';
 
 void main() {
   runApp(MessnegerUI());
@@ -19,25 +18,25 @@ class MessnegerUI extends StatelessWidget {
       home: Scaffold(
           appBar: AppBar(
         elevation: 0.0,
-        leading: CircleAvatar(
+        leading: const CircleAvatar(
           radius: 10.0,
-          backgroundImage: const AssetImage('assets/images/ProfilePicture.jpg'),
+          backgroundImage: AssetImage('assets/images/ProfilePicture.jpg'),
         ),
-        title: Text(
+        title: const Text(
           'Chats',
           style: TextStyle(color: Colors.white, fontSize: 40),
         ),
         actions: [
           Row(
-            children: [
-              const Padding(
+            children: const [
+              Padding(
                 padding: EdgeInsets.all(12.0),
                 child: Icon(
                   CupertinoIcons.camera_fill,
                   size: 20,
                 ),
               ),
-              const Icon(
+              Icon(
                 CupertinoIcons.pen,
                 size: 20,
               ),
