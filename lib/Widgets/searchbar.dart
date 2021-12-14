@@ -12,19 +12,21 @@ class SearchBar extends StatelessWidget {
           borderRadius: BorderRadius.circular(20),
         ),
         child: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.all(10.0),
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               const Icon(
                 CupertinoIcons.search,
                 size: 20,
                 color: Colors.white30,
               ),
-              // const SizedBox(width: 10),
+              const SizedBox(width: 10),
               const Text(
                 'Search',
-                style: TextStyle(color: Colors.white30),
+                style: TextStyle(
+                  color: Colors.white30,
+                  fontSize: 20,
+                ),
               ),
             ],
           ),
