@@ -45,6 +45,26 @@ class MessnegerUI extends StatelessWidget {
             ),
           ],
         ),
+        bottomNavigationBar: BottomAppBar(
+            elevation: 0.0,
+            child: Padding(
+              padding:
+                  const EdgeInsets.only(left: 50.0, right: 50.0, top: 10.0),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  IconButton(
+                    onPressed: () {},
+                    icon: const Icon(Icons.message),
+                    color: Colors.blue,
+                  ),
+                  IconButton(
+                    onPressed: () {},
+                    icon: const Icon(Icons.people),
+                  ),
+                ],
+              ),
+            )),
         body: MainPage(),
       ),
     );
