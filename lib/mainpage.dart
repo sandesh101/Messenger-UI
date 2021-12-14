@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:messengerui/Widgets/onlinelist.dart';
 import 'package:messengerui/Widgets/searchbar.dart';
 
 class MainPage extends StatelessWidget {
@@ -7,6 +8,7 @@ class MainPage extends StatelessWidget {
     return Stack(
       children: [
         SearchBar(),
+        OnlineList(),
       ],
     );
   }
