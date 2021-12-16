@@ -8,7 +8,7 @@ class MainPage extends StatelessWidget {
     return Stack(
       children: [
         SearchBar(),
-        // OnlineList(),
+        OnlineList(),
       ],
     );
   }
