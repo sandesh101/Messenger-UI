@@ -10,8 +10,7 @@ class MainChats extends StatelessWidget {
             radius: 30,
             backgroundImage: AssetImage(image),
           ),
-          Column(
-            mainAxisAlignment: MainAxisAlignment.start,
+          Stack(
             children: [
               Text(
                 name,
@@ -35,13 +34,13 @@ class MainChats extends StatelessWidget {
       child: ListView(
         children: [
           peopleChat('assets/images/Suman.jpg', 'Suman Ghimire', 'Hus'),
-          peopleChat('assets/images/Suman.jpg', 'Suman Ghimire', 'Hus'),
-          peopleChat('assets/images/Suman.jpg', 'Suman Ghimire', 'Hus'),
-          peopleChat('assets/images/Suman.jpg', 'Suman Ghimire', 'Hus'),
-          peopleChat('assets/images/Suman.jpg', 'Suman Ghimire', 'Hus'),
-          peopleChat('assets/images/Suman.jpg', 'Suman Ghimire', 'Hus'),
-          peopleChat('assets/images/Suman.jpg', 'Suman Ghimire', 'Hus'),
-          peopleChat('assets/images/Suman.jpg', 'Suman Ghimire', 'Hus'),
+          peopleChat('assets/images/Sanjog.jpg', 'Sanjog Ghimire', 'Hus'),
+          peopleChat('assets/images/Sanjeet.jpg', 'Sanjeet Ghimire', 'Hus'),
+          peopleChat('assets/images/Ashish.jpg', 'Ashish Mhrzn', 'Hus'),
+          peopleChat('assets/images/Ashwina.jpg', 'Ashwina Poudel', 'Hus'),
+          peopleChat('assets/images/Muna.jpg', 'Ghising D Muna', 'Hus'),
+          peopleChat('assets/images/ProfilePicture.jpg', 'You', 'Hus'),
+          peopleChat('assets/images/Saroj.jpg', 'Saroj Rimal', 'Hus'),
         ],
       ),
     );
