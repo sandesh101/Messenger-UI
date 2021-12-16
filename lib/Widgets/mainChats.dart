@@ -10,6 +10,7 @@ class MainChats extends StatelessWidget {
             radius: 30,
             backgroundImage: AssetImage(image),
           ),
+          const SizedBox(width: 10),
           Stack(
             children: [
               Text(
@@ -19,7 +20,7 @@ class MainChats extends StatelessWidget {
               Text(
                 message,
                 style: TextStyle(fontSize: 15),
-              ),
+              )
             ],
           )
         ],
